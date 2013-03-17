@@ -45,14 +45,10 @@ void clear(Node *&top)
         temp->link=NULL;
         delete temp;
         temp=NULL;
-    }
 }
 
 bool isempty(Node *top)
 {
-    if(top)
-        return false;
-    else
-        return true;
+    return top==NULL;
 }
 
