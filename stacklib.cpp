@@ -45,6 +45,7 @@ void clear(Node *&top)
         temp->link=NULL;
         delete temp;
         temp=NULL;
+    }
 }
 
 bool isempty(Node *top)
